@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    background-image: url(../../img/background/main2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    top: -5px;
+    left: -5px;
+    border: 2px solid #2A2A2A;
+    height: 100px;
+    width: 100%;
+    background-color: #2A2A2A;
+    position: fixed;
+    display: flex;
+}
+
+.logo{
+    width: 150px;
+    height: 70px;
+    padding: 20px;
+}
+
+.user{
+    position: relative;
+    left: 800px;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lk{
+    width: 35px;
+    height: 35px;
+}
+
+.but{
+    border: none;
+    background-color: #2A2A2A;
+    color: white;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avto{
+    top: 40px;
+    left: 400px;
+}
+.katalog{
+    top: 40px;
+    left: 600px;
+}
+.kontact{
+    top: 40px;
+    left: 800px;
+}
+.cont{
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 70px;
+    width: auto;
+    height: 100px;
+}
+
+.imglada{
+    position: relative;
+    transform: scaleX(-1);
+    width: 70%;
+    top: 25%;
+    left: -30%;
+}
+
+.info{
+    position: relative;
+    width: 600px;
+    height: 300px;
+
+    left:40%;
+    top: -22%;
+}
+
+.baner{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+
+.butdiv{
+    position: relative;
+    border: 1px, solid, white;
+    padding: 10px;
+    width: 150px;
+    height: 20px;
+    bottom: -80px;
+    border-radius: 15px;
+}
+
+
+.butt{
+    text-decoration: none;
+    color: white;
+    padding: 0 0 0 10px;
+}

@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    background-image: url(../../img/background/avto_reg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+.forma{
+    width: 30%;
+
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px; 
+
+    display: block;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    background-color: #757575;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: white;
+}
+
+.regi{
+    padding: 10px 10px;
+}
