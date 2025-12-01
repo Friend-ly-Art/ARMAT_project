@@ -1,43 +1,98 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
+    color: #333; 
+    background-color: #333;
+    background-color: black;
+    background-image: url(../../img/background/main2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .container {
+    margin-top: 200px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 
-.header {
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.header-top {
+header{
+    top: -5px;
+    left: -5px;
+    border: 2px solid #2A2A2A;
+    height: 100px;
+    width: 100%;
+    background-color: #2A2A2A;
+    position: fixed;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
 }
 
-.logo h1 {
-    color: #2c3e50;
-    font-size: 28px;
-    font-weight: 700;
+.logo{
+    width: 150px;
+    height: 70px;
+    padding: 20px;
+}
+
+.user{
+    position: relative;
+    left: 800px;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avto{
+    top: 40px;
+    left: 400px;
+}
+.katalog{
+    top: 40px;
+    left: 600px;
+}
+.kontact{
+    top: 40px;
+    left: 800px;
+}
+.cont{
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 70px;
+    width: auto;
+    height: 100px;
+}
+
+.lk{
+    width: 35px;
+    height: 35px;
+}
+
+.but{
+    border: none;
+    background-color: #2A2A2A;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav ul {
@@ -75,6 +130,7 @@ body {
 
 
 .main {
+    margin-top: 100px;
     padding: 50px 0;
 }
 
@@ -87,6 +143,8 @@ body {
     display: flex;
     align-items: center;
     gap: 50px;
+    border: 2px, solid, white;
+    border-radius: 20px;
 }
 
 .car-text {

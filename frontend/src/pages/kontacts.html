@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <link rel = stylesheet type = text/css href = "../css/pages/kontacts.css">
+        <title>ARMAT - Контакты</title>
+    </head>
+    <body>
+        <<header>
+            <a href = "main.html" class = "a111"><img class = "logo" src="../img/icons/LOGO.png" alt="logo company"></a>
+            <div class = cont>
+                <div class = avto><a href = "popular_avto.html">Популярные авто</a></div>
+                <div class = katalog><a href = "catalog.html">Каталог</a></div>
+                <div class = kontact><a href = "kontacts.html">Контакты</a></div>
+            </div>
+            
+            <div class = user>
+                <div class = language>
+                    <div><button class = "but">рус</button></div>
+                    <font color = white>|</font>
+                    <div><button class = "but">eng</button></div>
+                </div>
+                
+                <a href = "registration.html"><img class = "lk" src = ../img/icons/user.png alt = user_icon></a>
+            </div>
+        </header>
+
+        <main>
+            <div class="content-wrapper">
+                <div class="left-column">
+                    <h1>Будьте с нами на связи</h1>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="email">Ваш email</label>
+                            <input type="email" id="email" placeholder="example@mail.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" placeholder="Иван Иванов" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Заглавие сообщение</label>
+                            <input type="text" id="subject" placeholder="Тема сообщения" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Ваше сообщение оставьте здесь</label>
+                            <textarea id="message" rows="5" placeholder="Напишите ваше сообщение здесь..." required></textarea>
+                        </div>
+                        
+                        <div class="captcha">
+                            <div class="captcha-checkbox">
+                                <input type="checkbox" id="captcha">
+                                <label for="captcha">Я не робот</label>
+                            </div>
+                            <div class="captcha-logo">
+           
+                                <span>CAPTCHA</span>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Отправить</button>
+                    </form>
+                </div>
+                
+                <div class="right-column">
+                    <div class="about-section">
+                        <h2>O нашей компании</h2>
+                        <p>Компания ARMAT специализируется на предоставлении высококачественных автомобилей для аренды. Мы работаем на рынке более 10 лет, помогая нашим клиентам.</p>
+                        <p>Наша команда состоит из опытных профессионалов, которые всегда готовы помочь вам с любыми вопросами и задачами.</p>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h3><i class="fas fa-map-marker-alt"></i> Адреса офисов?</h3>
+                        <ul>
+                            <li><strong>Главный офис:</strong> ул. Примерная, д. 1, Москва</li>
+                            <li><strong>Филиал:</strong> пр. Образцовый, д. 15, Санкт-Петербург</li>
+                            <li><strong>Представительство:</strong> ул. Тестовая, д. 7, Екатеринбург</li>
+                        </ul>
+                        
+                        <h3><i class="fas fa-phone"></i> Номер телефона:</h3>
+                        <div class="phone-numbers">
+                            <p><span class="phone-label">Тех поддержка:</span> <span class="phone-number">+375 (29) 851-90-61</span></p>
+                            <p><span class="phone-label">Отдел продаж:</span> <span class="phone-number">+375 (29) 777-14-99</span></p>
+                            <p><span class="phone-label">Бухгалтерия:</span> <span class="phone-number">+375 (25) 622-24-99</span></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 ARMAT. Все права защищены.</p>
+        </div>
+    </body>
+</html>
