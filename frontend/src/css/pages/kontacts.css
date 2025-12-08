@@ -1,6 +1,6 @@
 body {
     background-color: #504F4F;
-    line-height: 1.6;
+    
 }
 header{
     top: -5px;
@@ -86,9 +86,8 @@ a{
     text-align: center;
 }
 
-.main {
-    margin-top: 100px;
-    padding: 50px 0;
+main {
+    line-height: 1.6;
 }
 
 
