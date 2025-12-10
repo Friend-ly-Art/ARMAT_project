@@ -1,0 +1,369 @@
+body {
+    background-color: #504F4F;
+    line-height: 1.6;
+}
+header{
+    top: -5px;
+    left: -5px;
+    border: 2px solid #2A2A2A;
+    height: 100px;
+    width: 100%;
+    background-color: #2A2A2A;
+    position: fixed;
+    display: flex;
+}
+
+.logo{
+    width: 150px;
+    height: 70px;
+    padding: 20px;
+}
+
+.user{
+    position: relative;
+    left: 800px;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lk{
+    width: 35px;
+    height: 35px;
+}
+
+.but{
+    margin-top: 5px;
+    border: none;
+    background-color: #2A2A2A;
+    color: white;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avto{
+    top: 40px;
+    left: 400px;
+}
+.katalog{
+    top: 40px;
+    left: 600px;
+}
+.kontact{
+    top: 40px;
+    left: 800px; 
+}
+.cont{
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 70px;
+    width: auto;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Основной контент */
+.main-content {
+    margin-top: 60px;
+    padding: 40px 0;
+}
+
+.page-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.page-header h1 i {
+    color: #1a73e8;
+}
+
+.subtitle {
+    color: white;
+    font-size: 18px;
+}
+
+/* Карточка статистики */
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.stats-card {
+    flex: 2;
+    min-width: 300px;
+    background-color: #504F4F;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    border: 2px, solid, white;
+    border-radius: 20px;
+}
+
+.stats-header {
+    border: 2px;
+    border-bottom: solid white;
+    color: black;
+    padding: 20px 25px;
+}
+
+.stats-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 22px;
+    color: white;
+}
+
+.stats-table {
+    padding: 25px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.stat-row:last-child {
+    border-bottom: none;
+}
+
+.stat-name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.stat-name i {
+    color: #1a73e8;
+    font-size: 20px;
+    width: 24px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+
+.stat-row.favorite .stat-name i {
+    color: #e91e63;
+}
+
+.stat-row.favorite .stat-value {
+    color: #e91e63;
+}
+
+/* Дополнительная статистика */
+.additional-stats {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stat-box {
+    background-color: #504F4F;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.3s;
+    border: 2px, solid, white;
+
+}
+
+.stat-box:hover {
+    transform: translateY(-5px);
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #1a73e8, #0d47a1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+.stat-info {
+    flex: 1;
+    
+}
+
+.stat-label {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.stat-number {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+}
+
+.stat-unit {
+    color: white;
+    font-size: 14px;
+}
+
+/* Разделитель */
+.divider {
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    background-color: #504F4F;
+    
+}
+
+.divider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #504F4F;
+    padding: 7px 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px, solid, white;
+    border-radius: 20px;
+}
+
+
+/* Подвал */
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #e0e0e0;
+    color: #777;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #1a73e8;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .user-section {
+        margin-top: 10px;
+    }
+    
+    .page-header h1 {
+        font-size: 28px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .stats-container {
+        flex-direction: column;
+    }
+    
+    .stat-value {
+        font-size: 24px;
+    }
+    
+    .my-car-section {
+        flex-direction: column;
+    }
+    
+    .motivation-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .divider-text {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+}

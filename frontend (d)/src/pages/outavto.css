@@ -1,0 +1,230 @@
+body {
+    background-color: #504F4F;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    top: -5px;
+    left: -5px;
+    border: 2px solid #2A2A2A;
+    height: 100px;
+    width: 100%;
+    background-color: #2A2A2A;
+    position: fixed;
+    display: flex;
+}
+
+.logo{
+    width: 150px;
+    height: 70px;
+    padding: 20px;
+}
+
+.user{
+    position: relative;
+    left: 800px;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lk{
+    width: 35px;
+    height: 35px;
+}
+
+.but{
+    border: none;
+    background-color: #2A2A2A;
+    color: white;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avto{
+    top: 40px;
+    left: 400px;
+}
+.katalog{
+    top: 40px;
+    left: 600px;
+}
+.kontact{
+    top: 40px;
+    left: 800px; 
+}
+.cont{
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 70px;
+    width: auto;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+.car-image img {
+    height: 70%;
+    object-fit: cover;
+    transition: transform 0.5s;
+    background-color: #504F4F;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+}
+
+
+
+/* Основной контент */
+.main-content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    gap: 40px;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    border: 2px, solid, white;
+    border-radius: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-title {
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+    left: 16%;
+    width: 100%;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 550px;
+    padding: 12px 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    background-color: #504F4F;
+}
+
+.comment-box {
+    background-color: #504F4F;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 25px;
+    height: 80px;
+    width: 500px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.comment-box p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Кнопка Сдать авто */
+.return-btn {
+    background-color: #504F4F;
+    color: white;
+    border: 2px solid white;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.return-btn:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .comment-section {
+        width: 95%;
+    }
+    
+    .comment-title {
+        text-align: center;
+    }
+    
+    .return-btn {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .logo {
+        font-size: 28px;
+    }
+    
+    .nav-link {
+        font-size: 16px;
+    }
+    
+    .comment-title {
+        font-size: 20px;
+    }
+}

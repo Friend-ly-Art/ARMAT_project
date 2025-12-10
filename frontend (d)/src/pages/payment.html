@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ввод данных банковской карты</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header>
+            <a href = "main.html" class = "a111"><img class = "logo" src="LOGO.png" alt="logo company"></a>
+            <div class = cont>
+                <div class = avto><a href = "main.html#link1">Популярные авто</a></div>
+                <div class = katalog><a href = "main.html#link2">Каталог</a></div>
+                <div class = kontact><a href = "main.html#link3">Контакты</a></div>
+            </div>
+            
+            <div class = user>
+                <div class = language>
+                    <div><button class = "but">рус</button></div>
+                    <font color = white>|</font>
+                    <div><button class = "but">eng</button></div>
+                </div>
+                
+                <a href = "registration.html"><img class = "lk" src = user.png alt = user_icon></a>
+            </div>
+        </header>
+
+    <div class="container">
+        <div class="card-form">
+            <h1 class="form-title">Введите данные банковской карты</h1>
+            
+            <form id="payment-form">
+                <div class="card-type-section">
+                    <h3><font color = white>Тип карты</font></h3>
+                    <div class="card-types">
+                        <label class="card-type-option">
+                            <input type="radio" name="card-type" value="visa">
+                            <span class="checkmark"></span>
+                            <img class = "visa" src="visa.png" alt="visa">
+                        </label>
+                        
+                        <label class="card-type-option">
+                            <input type="radio" name="card-type" value="mastercard">
+                            <span class="checkmark"></span>
+                            <img class = "mastercard" src="mastercard.png" alt="mastercard">
+                        </label>
+                        
+                        <label class="card-type-option">
+                            <input type="radio" name="card-type" value="mmp">
+                            <span class="checkmark"></span>
+                            <img class = "mir" src="mir.png" alt="mir">
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="card-number">Номер карты</label>
+                    <input type="text" id="card-number" maxlength="12" placeholder="XXXX XXXX XXXX XXXX" pattern="[0-9\s]{13,19}" title="Введите 16-значный номер карты">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <label for="expiry-date">Срок действия</label>
+                        <input type="text" id="expiry-date" placeholder="MM/YY" pattern="(0[1-9]|1[0-2])\/[0-9]{2}" title="Введите дату в формате ММ/ГГ">
+                    </div>
+                    
+                    <div class="form-group half-width">
+                        <label for="cvv">CVC/CVV</label>
+                        <input type="text" id="cvv" placeholder="XXX" pattern="[0-9]{3}" title="Введите 3-значный код безопасности">
+                    </div>
+                </div>
+                <div class = butdiv>
+                     <a class = butt href = "kabinet2.html" >Подтердить</a>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
