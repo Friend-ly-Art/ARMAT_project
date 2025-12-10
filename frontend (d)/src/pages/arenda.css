@@ -304,3 +304,282 @@ a{
         gap: 15px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo1{
+    width: 150px;
+    height: 70px;
+    padding: 20px;
+}
+
+.user1{
+    position: relative;
+    left: 800px;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lk1{
+    width: 35px;
+    height: 35px;
+}
+
+.but1{
+    border: none;
+    background-color: #2A2A2A;
+    color: white;
+}
+
+.cont1{
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 70px;
+    width: auto;
+    height: 100px;
+}
+
+
+
+.avto1{
+    top: 40px;
+    left: 400px;
+}
+.katalog1{
+    top: 40px;
+    left: 600px;
+}
+.kontact1{
+    top: 40px;
+    left: 800px;
+}
+
+
+
+
+
+
+
+.visa1{
+    width: 100px;
+    height: auto;
+}
+
+.mastercard1{
+    width: 100px;
+    height: auto;
+}
+
+.mir1{
+    width: 100px;
+    height: auto;
+}
+
+.container1 {
+    display: none;
+    position: fixed;
+            z-index: 1000;
+            left: 35%;
+            top: 20%;
+            width: 33%;
+            height: 30%;
+
+    
+}
+
+.card-form1 {
+    background-color: #504F4F;
+    border: 1px, solid, white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            line-height: 20px;
+        }
+
+.form-title1 {
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-type-section1 {
+    margin-bottom: 25px;
+}
+
+.card-type-section1 h3 {
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-types1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card-type-option1 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    user-select: none;
+}
+
+.card-type-option1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #181818;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    transition: all 0.2s ease;
+}
+
+.card-type-option1:hover input ~ .checkmark1 {
+    background-color: #181818;
+}
+
+.card-type-option1 input:checked ~ .checkmark1 {
+    background-color: #4a6cf7;
+    border-color: #4a6cf7;
+}
+
+.checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.card-type-option1 input:checked ~ .checkmark1:after {
+    display: block;
+}
+
+.card-type-option1 .checkmark1:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.card-type-label1 {
+    margin-left: 8px;
+    color: #333;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-row1 {
+    display: flex;
+    gap: 15px;
+}
+
+.half-width1 {
+    padding: 0 50px 0 0 ;
+    width: 150px;
+}
+
+
+
+.butdiv1{
+    position: relative;
+    border: 1px, solid, white;
+    padding: 10px;
+    width: 410px;
+    height: 20px;
+
+    border-radius: 10px;
+}
+
+
+.butt1{
+    text-decoration: none;
+    color: white;
+    padding: 0 0 0 160px;
+}
+
+input{
+    background-color: #757575;
+    border: none;
+    color: white
+}
+
+::placeholder{
+    color: #3C3C3C;
+}
